@@ -25,16 +25,7 @@ struct ExpensesUtils:
 
     @staticmethod
     fn get_pandas() raises -> PythonObject:
-        return Python.import_module("pandas") 
-
-    @staticmethod
-    fn get_gspread() raises -> PythonObject:
-        return Python.import_module("gspread") 
-
-    # We don't use access to GCP to avoid charges.
-    @staticmethod
-    fn get_google_auth() raises -> PythonObject:
-        return Python.import_module("oauth2client.client") 
+        return Python.import_module("pandas")
 
     fn get_month(inout self, month: PythonObject) raises -> PythonObject:
         return self.months.get(month)

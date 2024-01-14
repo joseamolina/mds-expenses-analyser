@@ -1,3 +1,3 @@
-# mojo-colaborativefiltering
+# Expense data analysis with mojo
 
-- a Mojo binary application.
+This application

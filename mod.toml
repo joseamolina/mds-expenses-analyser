@@ -2,10 +2,10 @@
 name = "mojo-colaborativefiltering"
 version = "0.1.0"
 description = "A Mojo Package"
-authors = ["your_name <you@email.com>"]
+authors = ["Jose Angel Molina <iosifgmh@gmail.com>"]
 license = ""
 repository = ""
-edition = "2023"
+edition = "2024"
 mojo-version = "0.6.1"
 
 
